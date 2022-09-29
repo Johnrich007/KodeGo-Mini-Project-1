@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Iligan City Badminton Club</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/icbcFavicon.jpg" />
+    <!-- Bootstrap Icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- SimpleLightbox plugin CSS-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/hPage.css" />
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">
+          <img
+            src="./assets/icbcFavicon.jpg"
+            style="width: 40px"
+            class="rounded-pill"
+          />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#signUp">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  Sign In
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title">Sign In</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form action="/action_page.php">
+              <div class="mb-3 mt-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pwd"
+                  placeholder="Enter password"
+                  name="pswd"
+                />
+              </div>
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="remember"
+                  />
+                  Remember me
+                </label>
+              </div>
+              <a href="homePage.html">
+                <button class="btn btn-primary w-100" type="button">
+                  Submit
+                </button></a
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container px-4 px-lg-5 h-100">
+        <div
+          class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
+        >
+          <div class="col-lg-8 align-self-end">
+            <h1 class="text-white font-weight-bold">
+              Iligan City<br />Badminton Club
+            </h1>
+            <hr class="divider" />
+          </div>
+          <div class="col-lg-8 align-self-baseline">
+            <!--<p class="text-white-75 mb-5">Teaches people to play badminton.</p>-->
+            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="page-section bg-primary" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">Iligan City Badminton Club</h2>
+            <hr class="divider divider-light" />
+            <p class="text-white-75 mb-4">
+              - Promotes participation in badminton as a sport for life and<br />
+              encourage the growth of badminton athletes throughout Iligan
+              City.<br /><br />
+              - Create a badminton community that is supportive, progressive,
+              friendly, competitive and encouraging. Ensures that athletes, no
+              matter what their age or background, will have an opportunity to
+              reach their potential.
+            </p>
+            <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services-->
+    <section class="page-section" id="services">
+      <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">Services</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2"><i class="bi-gear fs-1 text-primary"></i></div>
+              <h3 class="h4 mb-2">Trainings</h3>
+              <p class="text-muted mb-0">
+                ICBC conduct trainings to all badminton enthusiast.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2">
+                <i class="bi-trophy fs-1 text-primary"></i>
+              </div>
+              <h3 class="h4 mb-2">Tournaments</h3>
+              <p class="text-muted mb-0">ICBC manages badminton tournaments.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2">
+                <i class="bi-telephone-forward fs-1 text-primary"></i>
+              </div>
+              <h3 class="h4 mb-2">Reservations</h3>
+              <p class="text-muted mb-0">
+                ICBC books reservations for those players who wants to play
+                exclusively.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2">
+                <i class="bi-megaphone fs-1 text-primary"></i>
+              </div>
+              <h3 class="h4 mb-2">Advertisements</h3>
+              <p class="text-muted mb-0">
+                ICBC promotes sponsors during tournaments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio-->
+    <div id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-lg-4 col-sm-6">
+            <a
+              class="portfolio-box"
+              href="assets/img/portfolio/fullsize/icbc1.jpg"
+              title="ICBC Badminton Tournament 2019"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/thumbnails/icbc1.jpg"
+                alt="..."
+              />
+              <div class="portfolio-box-caption">
+                <div class="project-name">ICBC Badminton Tournament 2019</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a
+              class="portfolio-box"
+              href="assets/img/portfolio/fullsize/icbc2.jpg"
+              title="ICBC Team Cardona Tournament 2020"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/thumbnails/icbc2.jpg"
+                alt="..."
+              />
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                  ICBC Team Cardona Tournament 2020
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a
+              class="portfolio-box"
+              href="assets/img/portfolio/fullsize/icbc3.jpg"
+              title="ICBC Team Cardona Tournament 2021"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/thumbnails/icbc3.jpg"
+                alt="..."
+              />
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                  ICBC Team Cardona Tournament 2021
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a
+              class="portfolio-box"
+              href="assets/img/portfolio/fullsize/icbc4.jpg"
+              title="ICBC Tournament 2018"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/thumbnails/icbc4.jpg"
+                alt="..."
+              />
+              <div class="portfolio-box-caption">
+                <div class="project-name">ICBC Tournament 2018</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a
+              class="portfolio-box"
+              href="assets/img/portfolio/fullsize/icbc5.jpg"
+              title="ICBC Tournament 2019"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/thumbnails/icbc5.jpg"
+                alt="..."
+              />
+              <div class="portfolio-box-caption">
+                <div class="project-name">ICBC Tournament 2019</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a
+              class="portfolio-box"
+              href="assets/img/portfolio/fullsize/icbc6.jpg"
+              title="ICBC Team Cardona Tournament 2022"
+            >
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/thumbnails/icbc6.jpg"
+                alt="..."
+              />
+              <div class="portfolio-box-caption p-3">
+                <div class="project-name">
+                  ICBC Team Cardona Tournament 2022
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact-->
+    <section class="page-section" id="signUp">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 col-xl-6 text-center">
+            <h2 class="mt-0">Create an Account</h2>
+            <hr class="divider" />
+          </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+          <div class="col-lg-6">
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <!-- Name input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name..."
+                  data-sb-validations="required"
+                />
+                <label for="name">Full name</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">
+                  A name is required.
+                </div>
+              </div>
+              <!-- Email address input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  placeholder="name@example.com"
+                  data-sb-validations="required,email"
+                />
+                <label for="email">Email address</label>
+                <div class="invalid-feedback" data-sb-feedback="email:required">
+                  An email is required.
+                </div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">
+                  Email is not valid.
+                </div>
+              </div>
+
+              <!-- Password-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="password"
+                  type="password"
+                  placeholder=" "
+                  data-sb-validations="required"
+                />
+                <label for="password">Password</label>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="password:required"
+                >
+                  A password is required.
+                </div>
+              </div>
+
+              <!-- Password-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="password"
+                  type="password"
+                  placeholder=" "
+                  data-sb-validations="required"
+                />
+                <label for="password">Confirm Password</label>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="password:required"
+                >
+                  A password is required.
+                </div>
+              </div>
+
+              <!-- Submit success message-->
+              <!---->
+              <!-- This is what your users will see when the form-->
+              <!-- has successfully submitted-->
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  To activate this form, sign up at
+                  <br />
+                  <a href="https://startbootstrap.com/solution/contact-forms"
+                    >https://startbootstrap.com/solution/contact-forms</a
+                  >
+                </div>
+              </div>
+              <!-- Submit error message-->
+              <!---->
+              <!-- This is what your users will see when there is-->
+              <!-- an error submitting the form-->
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  Error sending message!
+                </div>
+              </div>
+              <!-- Submit Button-->
+              <div class="d-grid">
+                <button
+                  class="btn btn-primary btn-xl disabled"
+                  id="submitButton"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 footerColor">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+          <i class="bi-facebook fs-1 mb-3 mx-3"></i>
+          <i class="bi-twitter fs-1 mb-3 mx-3"></i>
+          <i class="bi-instagram fs-1 mb-3 mx-3"></i>
+          <i class="bi-youtube fs-1 mb-3 mx-3"></i>
+        </div>
+      </div>
+
+      <div class="container px-4 px-lg-5">
+        <div class="small text-center mt-3">
+          Copyright &copy; 2022 - Iligan City Badminton Club
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
